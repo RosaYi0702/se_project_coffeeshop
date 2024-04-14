@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-Have some more space in front of placeholder.
+-Make Recipes section able to sroll to add more videos.
