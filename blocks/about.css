@@ -1,6 +1,6 @@
 @keyframes pulsate {
   0% {
-    opacity: 100%;
+    opacity: 0%;
   }
   50% {
     opacity: 60%;
@@ -28,7 +28,7 @@
   margin: 100px 0 0 80px;
   z-index: 2;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 44px;
   line-height: 52px;
   display: flex;
 }
@@ -37,7 +37,7 @@
   margin: 119px 80px 173px 0;
   max-width: 660px;
   z-index: 1;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -62,5 +62,8 @@
   left: -129px;
   overflow: hidden;
   z-index: -1;
+}
+
+.about__circle_animation_blurred {
   animation: pulsate 1.3s linear infinite;
 }

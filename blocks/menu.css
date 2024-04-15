@@ -1,8 +1,7 @@
 .menu {
-  background-color: #fff;
-  background-image: url(../images/background_menu.svg);
-  background-repeat: no-repeat;
+  background: #fff url(../images/background_menu.svg) no-repeat;
   background-size: cover;
+
   padding: 100px 0;
 }
 
@@ -20,7 +19,7 @@
   margin: 24px auto 100px;
   max-width: 780px;
   text-align: center;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
@@ -33,39 +32,4 @@
   gap: 100px;
   padding: 0;
   margin: 0;
-}
-
-.card {
-  width: 540px;
-  list-style-type: none;
-}
-
-.card__list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.card__title {
-  margin: 0 0 32px;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  margin: 0 0 16px;
-  display: flex;
-  font-weight: normal;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.card__list-item:last-child {
-  margin: 0;
-}
-
-.card__list-divider {
-  border-bottom: 1px #000 solid;
-  flex-grow: 1;
 }
