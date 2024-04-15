@@ -6,6 +6,8 @@
 
 .nav__logo {
   position: relative;
+  top: 30px;
+  right: 30px;
   width: 105px;
   height: 39px;
 }
@@ -22,6 +24,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .nav__link:hover {

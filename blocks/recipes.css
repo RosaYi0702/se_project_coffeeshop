@@ -3,6 +3,7 @@
   background-image: url(../images/background_recipes.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 100px 80px 215px;
   position: relative;
 }

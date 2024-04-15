@@ -46,6 +46,7 @@
   padding: 0;
   margin: 0 0 32px;
   border-style: solid;
+  transition: 0.3s;
 }
 
 .form__button:hover {
